@@ -73,10 +73,10 @@ class Main extends React.Component {
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
-            <ul className="actions">
-              <li><button type="submit" className="special">Send</button></li>
-              <li><input type="reset" value="Clear" /></li>
-            </ul>
+            <div className="actions">
+              <p><button type="submit" className="special">Send</button></p>
+              <p><input type="reset" value="Clear" /></p>
+            </div>
           </form>
           <ul className="icons">
             <li><a href="https://www.linkedin.com/in/blakeharrisdev/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
