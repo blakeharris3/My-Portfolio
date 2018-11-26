@@ -60,7 +60,7 @@ class Main extends React.Component {
             <label className="icon fa-phone phoneNum"> (480) 252-3838</label>
           </div>
           <h3 className="major">Email</h3>
-          <form method="post" action="#">
+          <form form-name="contact" method="POST" netlify>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -74,7 +74,7 @@ class Main extends React.Component {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
+              <li><button type="submit" className="special">Send Message</button></li>
               <li><input type="reset" value="Clear" /></li>
             </ul>
           </form>
