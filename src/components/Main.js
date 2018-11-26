@@ -60,7 +60,7 @@ class Main extends React.Component {
             <label className="icon fa-phone phoneNum"> (480) 252-3838</label>
           </div>
           <h3 className="major">Email</h3>
-          <form form-name="contact" method="POST" data-netlify="true">
+          <form form-name="contact" method="POST" data-netlify="true" onSubmit={(e) => e.preventDefault()}>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
