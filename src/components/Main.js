@@ -60,7 +60,8 @@ class Main extends React.Component {
             <label className="icon fa-phone phoneNum"> (480) 252-3838</label>
           </div>
           <h3 className="major">Email</h3>
-          <form form-name="contact" method="POST" data-netlify="true" onSubmit={(e) => e.preventDefault()}>
+          <form form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -73,10 +74,7 @@ class Main extends React.Component {
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
-            <div className="actions">
-              <p><button type="submit" className="special">Send</button></p>
-              <p><input type="reset" value="Clear" /></p>
-            </div>
+              <button type="submit" className="special">Send</button>
           </form>
           <ul className="icons">
             <li><a href="https://www.linkedin.com/in/blakeharrisdev/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
