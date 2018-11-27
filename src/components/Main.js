@@ -31,9 +31,8 @@ class Main extends React.Component {
             <li>Express</li>
             <li>React</li>
             <li>SQL</li>
-            <li>CSS</li>
-    
-            <li>HTML5</li>
+
+            <li>CSS/HTML5</li>
             <li>Python</li>
             <li>Django</li>
             <li>MongoDB</li>
