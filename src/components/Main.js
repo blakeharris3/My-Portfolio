@@ -49,7 +49,7 @@ class Main extends React.Component {
           <span className="image main"><a href='https://thescheduler.netlify.com/'><img src={scheduler} alt="" /></a></span>
           <p><a href='https://thescheduler.netlify.com/'>Scheduler</a> is a react client-side application with an express backend that allows employers to post schedules or important news to their employees. The individuals modifying the schedules can use an access key (1234) to update or change the information as needed. The employees who just get to see the uploaded forms can be assigned the key (1111).</p>
           <span className="image main"><a href='https://gits-project.herokuapp.com/'><img src={gits} alt="" /></a></span>
-          <p><a href='https://gits-project.herokuapp.com/'>G.I.T.S.</a> is a collabored project that we designed where you can buy tickets and travel through space. We implemented Node, Express, JavaScript, MongoDBm Mongoose as well as Passport. It contains a fully functional login after a registration, or you are able to login using your google account.</p>
+          <p><a href='https://gits-project.herokuapp.com/'>G.I.T.S.</a> is a collabored project that we designed where you can buy tickets and travel through space. We implemented Node, Express, JavaScript, MongoDB, Mongoose as well as Passport. It contains a fully functional login after a registration, or you are able to login using your google account.</p>
           <span className="image main"><a href='https://blakeharris3.github.io/blackjack/'><img src={blackjack} alt="" /></a></span>
           <p><a href='https://blakeharris3.github.io/blackjack/'>Blackjack</a> is my built jQuery version of a classic casino table game.</p>
           {close}
