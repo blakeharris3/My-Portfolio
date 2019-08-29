@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^2.0.50",
     "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-mdx": "^1.0.33",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
