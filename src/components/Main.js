@@ -6,7 +6,7 @@ import pic01 from '../images/pic02.jpg'
 import gits from '../images/gits.png'
 import blackjack from '../images/blackjack.png'
 import scheduler from '../images/scheduler.png'
-import nfl from '..images/nfl.png'
+import nfl from '../images/nfl.png'
 
 
 class Main extends React.Component {
