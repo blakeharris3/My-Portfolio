@@ -6,6 +6,7 @@ import pic01 from '../images/pic02.jpg'
 import gits from '../images/gits.png'
 import blackjack from '../images/blackjack.png'
 import scheduler from '../images/scheduler.png'
+import nfl from '..images/nfl.png'
 
 class Main extends React.Component {
   render() {
@@ -48,6 +49,8 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
           <span className="image main"><a href='https://thescheduler.netlify.com/'><img src={scheduler} alt="" /></a></span>
           <p><a href='https://thescheduler.netlify.com/'>Scheduler</a> is a React client-side and Auth0 authentication application with an express backend that allows employers to post schedules or important news to their employees. The individuals modifying the schedules can use an access key (1234) to update or change the information as needed. The employees who just get to see the uploaded forms can be assigned the key (1111).</p>
+          <span className="image main"><a href='https://nflstandings.netlify.com/'><img src={nfl} alt="" /></a></span>
+          <p><a href='https://nflstandings.netlify.com/'>NFL Standings</a> is a project I created that allows you to follow your favorite team, and keep track of their record as the season progresses.</p>
           <span className="image main"><a href='https://gits-project.herokuapp.com/'><img src={gits} alt="" /></a></span>
           <p><a href='https://gits-project.herokuapp.com/'>G.I.T.S.</a> is a collabored project that we designed where you can buy tickets and travel through space. We implemented Node, Express, JavaScript, MongoDB, Mongoose as well as Passport. It contains a fully functional login after a registration, or you are able to login using your google account.</p>
           <span className="image main"><a href='https://blakeharris3.github.io/blackjack/'><img src={blackjack} alt="" /></a></span>
