@@ -43,7 +43,7 @@ class Main extends React.Component {
             <li>Mongoose</li>
             
           </ul>
-          
+           
           {close}
         </article>
 
