@@ -31,6 +31,7 @@ class Main extends React.Component {
           <span className="image main"><img src={pic02} alt="" /></span>
           <ul className= 'phoneNum'>
             <li>JavaScript</li>
+            <li>Java</li>
             <li>Node</li>
             <li>Express</li>
             <li>React</li>
