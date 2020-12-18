@@ -1,4 +1,4 @@
 # Blake Harris' Profile
 
 
-Run `gatsby develop` in the terminal to start the dev site.
+Run `npm run develop` in the terminal to start the dev site.
