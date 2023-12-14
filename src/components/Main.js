@@ -33,7 +33,7 @@ class Main extends React.Component {
             <li>JavaScript</li>
             <li>Java</li>
             <li>Node</li>
-            <li>Express</li>
+            <li>C#</li>
             <li>React</li>
             <li>SQL</li>
 
