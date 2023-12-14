@@ -21,7 +21,7 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p className='phoneNum'>I am a Full-Stack Developer, Arizona State graduate, and sports fan who enjoys the outdoors. A determined individual with an engineering background, I love being challenged and I'm constantly striving to improve. I collaborate well with others and bring lots of ideas to the table, but I’m also very self-driven and tenacious when working alone.</p>
+          <p className='phoneNum'>I'm a passionate full-stack web developer and quick to grasp new tasks. Experienced in building front-end and back-end web applications with various languages. I'm a determined individual with an engineering background, I love being challenged and I'm constantly striving to improve. I collaborate well with others and bring lots of ideas to the table, but I’m also very self-driven and tenacious when working alone.</p>
           <p></p>
           {close}
         </article>
