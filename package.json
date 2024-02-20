@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "author": "Blake Harris",
   "dependencies": {
-    "gatsby": "^5.12.12",
-    "gatsby-plugin-manifest": "^2.0.9",
-    "gatsby-plugin-mdx": "^5.12.3",
-    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby": "^2.13.57",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-mdx": "^2.15.0",
+    "gatsby-plugin-offline": "^6.13.1",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
     "node-sass": "^9.0.0",
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
