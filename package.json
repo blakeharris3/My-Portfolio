@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "author": "Blake Harris",
   "dependencies": {
-    "gatsby": "^2.0.50",
+    "gatsby": "^5.12.12",
     "gatsby-plugin-manifest": "^2.0.9",
-    "gatsby-plugin-mdx": "^1.0.33",
+    "gatsby-plugin-mdx": "^5.12.3",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^9.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0"
